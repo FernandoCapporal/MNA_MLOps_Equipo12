@@ -189,3 +189,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Formatos de video comunes
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.vob
