@@ -22,7 +22,7 @@ def main():
     mlflow.sklearn.autolog()
 
     X_train, X_test, y_train, y_test = preprocess_data(data_path)
-    mlflow.start_run(run_name="random-forest-classifier")
+    #mlflow.start_run(run_name="random-forest-classifier")
     metric = train_logistic_regression(X_train, X_test, y_train, y_test, C=1.0)
     mlflow.end_run()
 
