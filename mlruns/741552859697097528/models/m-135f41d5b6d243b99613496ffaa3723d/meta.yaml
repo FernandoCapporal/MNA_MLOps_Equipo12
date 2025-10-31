@@ -1,0 +1,10 @@
+artifact_location: file:C:\Users\amosi\Repos\MNA_MLOps_Equipo12_COIL_2000\mlruns/741552859697097528/models/m-135f41d5b6d243b99613496ffaa3723d/artifacts
+creation_timestamp: 1761888788413
+experiment_id: '741552859697097528'
+last_updated_timestamp: 1761888791536
+model_id: m-135f41d5b6d243b99613496ffaa3723d
+model_type: null
+name: model
+source_run_id: 1d94e48adf6842888c148885f660b1dc
+status: 2
+status_message: null

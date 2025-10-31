@@ -1,0 +1,14 @@
+artifact_uri: file:C:\Users\amosi\Repos\MNA_MLOps_Equipo12_COIL_2000\mlruns/741552859697097528/7eebe5c9e2f44abab7be0d4c2da1e1de/artifacts
+end_time: 1761888808618
+entry_point_name: ''
+experiment_id: '741552859697097528'
+lifecycle_stage: active
+run_id: 7eebe5c9e2f44abab7be0d4c2da1e1de
+run_name: RF_n100_d15_gini
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761888795193
+status: 3
+tags: []
+user_id: amosi

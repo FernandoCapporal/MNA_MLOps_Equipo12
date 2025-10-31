@@ -1,0 +1,14 @@
+artifact_uri: file:C:\Users\amosi\Repos\MNA_MLOps_Equipo12_COIL_2000\mlruns/741552859697097528/5eec081f5b78447eaf50eb95e7f2e09c/artifacts
+end_time: 1761888820688
+entry_point_name: ''
+experiment_id: '741552859697097528'
+lifecycle_stage: active
+run_id: 5eec081f5b78447eaf50eb95e7f2e09c
+run_name: RF_n100_d15_entropy
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761888808629
+status: 3
+tags: []
+user_id: amosi

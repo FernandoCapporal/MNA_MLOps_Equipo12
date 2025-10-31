@@ -1,8 +1,10 @@
 from matplotlib import pyplot as plt
+import mlflow
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import numpy as np
 from pathlib import Path
+from itertools import product
 
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
@@ -18,16 +20,43 @@ from imblearn.pipeline import Pipeline as ImbPipeline
 
 
 def train_logistic_regression(X_train, X_test, y_train, y_test, C=1.0):
-    trainer = ModelTrainingPipeline(
-        n_estimators=300,
-        max_depth=10,
-        criterion='gini',
-        random_state=42
-    )
-    trainer.build(X_train)
-    trainer.fit(X_train, y_train)
-    metrics = trainer.evaluate(X_test, y_test)
-    metrics
+
+    # Lista de hiperparámetros para probar
+    n_estimators_list = [100, 200, 300]
+    max_depth_list = [5, 10, 15]
+    criterion_list = ['gini', 'entropy']
+
+    for n in n_estimators_list:
+        for d in max_depth_list:
+            for c in criterion_list:
+                with mlflow.start_run(run_name=f"RF_n{n}_d{d}_{c}"):
+                    trainer = ModelTrainingPipeline(
+                        n_estimators=n,
+                        max_depth=d,
+                        criterion=c,
+                        random_state=42
+                    )
+                    trainer.build(X_train)
+                    trainer.fit(X_train, y_train)
+                    metrics = trainer.evaluate(X_test, y_test)
+                    
+                    # Registrar métricas manuales si lo deseas
+                    mlflow.log_metrics(metrics)
+                    
+                    print(f"✅ Run completado: n={n}, d={d}, c={c}")
+
+
+    #trainer = ModelTrainingPipeline(
+    #    n_estimators=300,
+    #    max_depth=10,
+    #    criterion='gini',
+    #    random_state=42
+    #)
+    #mlflow.log_param("note", "ModelTrainingPipeline with RandomForestClassifier and undersampling")
+    #trainer.build(X_train)
+    #trainer.fit(X_train, y_train)
+    #metrics = trainer.evaluate(X_test, y_test)
+    #metrics
     return metrics
 
 
