@@ -1,0 +1,64 @@
+digest: ccc8f9d2
+name: dataset
+profile: '{"num_rows": 1188, "num_elements": 100980}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "MOSTYPE", "required": false},
+  {"type": "string", "name": "MAANTHUI", "required": false}, {"type": "string", "name":
+  "MGEMOMV", "required": false}, {"type": "string", "name": "MGEMLEEF", "required":
+  false}, {"type": "string", "name": "MOSHOOFD", "required": false}, {"type": "string",
+  "name": "MGODRK", "required": false}, {"type": "string", "name": "MGODPR", "required":
+  false}, {"type": "string", "name": "MGODOV", "required": false}, {"type": "string",
+  "name": "MGODGE", "required": false}, {"type": "string", "name": "MRELGE", "required":
+  false}, {"type": "string", "name": "MRELSA", "required": false}, {"type": "string",
+  "name": "MRELOV", "required": false}, {"type": "string", "name": "MFALLEEN", "required":
+  false}, {"type": "string", "name": "MFGEKIND", "required": false}, {"type": "string",
+  "name": "MFWEKIND", "required": false}, {"type": "string", "name": "MOPLHOOG", "required":
+  false}, {"type": "string", "name": "MOPLMIDD", "required": false}, {"type": "string",
+  "name": "MOPLLAAG", "required": false}, {"type": "string", "name": "MBERHOOG", "required":
+  false}, {"type": "string", "name": "MBERZELF", "required": false}, {"type": "string",
+  "name": "MBERBOER", "required": false}, {"type": "string", "name": "MBERMIDD", "required":
+  false}, {"type": "string", "name": "MBERARBG", "required": false}, {"type": "string",
+  "name": "MBERARBO", "required": false}, {"type": "string", "name": "MSKA", "required":
+  false}, {"type": "string", "name": "MSKB1", "required": false}, {"type": "string",
+  "name": "MSKB2", "required": false}, {"type": "string", "name": "MSKC", "required":
+  false}, {"type": "string", "name": "MSKD", "required": false}, {"type": "string",
+  "name": "MHHUUR", "required": false}, {"type": "string", "name": "MHKOOP", "required":
+  false}, {"type": "string", "name": "MAUT1", "required": false}, {"type": "string",
+  "name": "MAUT2", "required": false}, {"type": "string", "name": "MAUT0", "required":
+  false}, {"type": "string", "name": "MZFONDS", "required": false}, {"type": "string",
+  "name": "MZPART", "required": false}, {"type": "string", "name": "MINKM30", "required":
+  false}, {"type": "string", "name": "MINK3045", "required": false}, {"type": "string",
+  "name": "MINK4575", "required": false}, {"type": "string", "name": "MINK7512", "required":
+  false}, {"type": "string", "name": "MINK123M", "required": false}, {"type": "string",
+  "name": "MINKGEM", "required": false}, {"type": "string", "name": "MKOOPKLA", "required":
+  false}, {"type": "string", "name": "PWAPART", "required": false}, {"type": "string",
+  "name": "PWABEDR", "required": false}, {"type": "string", "name": "PWALAND", "required":
+  false}, {"type": "string", "name": "PPERSAUT", "required": false}, {"type": "string",
+  "name": "PBESAUT", "required": false}, {"type": "string", "name": "PMOTSCO", "required":
+  false}, {"type": "string", "name": "PVRAAUT", "required": false}, {"type": "string",
+  "name": "PAANHANG", "required": false}, {"type": "string", "name": "PTRACTOR", "required":
+  false}, {"type": "string", "name": "PWERKT", "required": false}, {"type": "string",
+  "name": "PBROM", "required": false}, {"type": "string", "name": "PLEVEN", "required":
+  false}, {"type": "string", "name": "PPERSONG", "required": false}, {"type": "string",
+  "name": "PGEZONG", "required": false}, {"type": "string", "name": "PWAOREG", "required":
+  false}, {"type": "string", "name": "PBRAND", "required": false}, {"type": "string",
+  "name": "PZEILPL", "required": false}, {"type": "string", "name": "PPLEZIER", "required":
+  false}, {"type": "string", "name": "PFIETS", "required": false}, {"type": "string",
+  "name": "PINBOED", "required": false}, {"type": "string", "name": "PBYSTAND", "required":
+  false}, {"type": "string", "name": "AWAPART", "required": false}, {"type": "string",
+  "name": "AWABEDR", "required": false}, {"type": "string", "name": "AWALAND", "required":
+  false}, {"type": "string", "name": "APERSAUT", "required": false}, {"type": "string",
+  "name": "ABESAUT", "required": false}, {"type": "string", "name": "AMOTSCO", "required":
+  false}, {"type": "string", "name": "AVRAAUT", "required": false}, {"type": "string",
+  "name": "AAANHANG", "required": false}, {"type": "string", "name": "ATRACTOR", "required":
+  false}, {"type": "string", "name": "AWERKT", "required": false}, {"type": "string",
+  "name": "ABROM", "required": false}, {"type": "string", "name": "ALEVEN", "required":
+  false}, {"type": "string", "name": "APERSONG", "required": false}, {"type": "string",
+  "name": "AGEZONG", "required": false}, {"type": "string", "name": "AWAOREG", "required":
+  false}, {"type": "string", "name": "ABRAND", "required": false}, {"type": "string",
+  "name": "AZEILPL", "required": false}, {"type": "string", "name": "APLEZIER", "required":
+  false}, {"type": "string", "name": "AFIETS", "required": false}, {"type": "string",
+  "name": "AINBOED", "required": false}, {"type": "string", "name": "ABYSTAND", "required":
+  false}]}'
+source: '{"tags": {"mlflow.user": "amosi", "mlflow.source.name": "main.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "632e6faeafafd517bbcacf9cabe6110c5ee27d75"}}'
+source_type: code
