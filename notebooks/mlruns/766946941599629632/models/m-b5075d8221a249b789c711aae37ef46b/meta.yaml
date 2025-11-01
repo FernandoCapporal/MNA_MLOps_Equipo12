@@ -1,0 +1,10 @@
+artifact_location: file:c:/Users/dark_/OneDrive/Documentos/1 - Maestria/6 Trimestre/MLOps/Proyecto/Repository/MNA_MLOps_Equipo12/notebooks/mlruns/766946941599629632/models/m-b5075d8221a249b789c711aae37ef46b/artifacts
+creation_timestamp: 1761980485534
+experiment_id: '766946941599629632'
+last_updated_timestamp: 1761980503086
+model_id: m-b5075d8221a249b789c711aae37ef46b
+model_type: null
+name: model
+source_run_id: d6224445f6ff491c948718934e496579
+status: 2
+status_message: null
