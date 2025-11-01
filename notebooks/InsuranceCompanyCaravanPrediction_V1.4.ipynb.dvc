@@ -1,0 +1,5 @@
+outs:
+- md5: 26d8bd1839fe57a19f743cdc7036b2da
+  size: 37776
+  hash: md5
+  path: InsuranceCompanyCaravanPrediction_V1.4.ipynb
